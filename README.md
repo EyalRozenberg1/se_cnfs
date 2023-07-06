@@ -1,7 +1,6 @@
 # SEMI-EQUIVARIANT CONDITIONAL NORMALIZING FLOWS
 
-Official data of:
-
+Official data of:  
 **Semi-Equivariant Conditional Normalizing Flows, With Applications to Target-Aware Molecule Generation**  
 >Eyal Rozenberg, Daniel Freedman  
 {eyalrozenberg,danielfreedman}@verily.com  
@@ -13,12 +12,13 @@ Learning over the domain of 3D graphs has applications in a number of scientific
 
 ### DATA
 To demonstrate the utility of our technique in the molecular setting we use CrossDocked2020 [Francoeur et al.,2020] dataset. This is a standardized dataset for training ML models with ligand poses cross-docked against non-cognate receptor structure, greatly expanding the number of poses available for training. The dataset is organized by clustering of similar binding pockets across the PDB; each cluster contains ligands cross-docked against all receptors in the pocket. Each receptor-ligand structure also contains information indicating the nature of the docked pair, such as root mean squared deviation (RMSD) to the reference crystal pose and Vina cross-docking score [Trott and Olson, 2010] as implemented in Smina [Koes et al., 2013]. 
-* Download the tarballs (v1.1) from  
-http://bits.csb.pitt.edu/files/crossdock2020/v1.1/
-* Instruction to download the raw data for the CrossDocked2020 set  
-https://github.com/gnina/models/tree/master/data/CrossDocked2020
-* Download the following evaluation dataset and save it with the pockets folders under a folder named `test/`
+* To download the tarballs (v1.1) of the CrossDocked2020 set go to:  
+http://bits.csb.pitt.edu/files/crossdock2020/v1.1/  
+** Extract the zipped raw data `CrossDocked2020_v1.1.tgz` to `data/` folder
+* Download the following evaluation dataset and save it under `data/test/` folder
 https://github.com/mattragoza/LiGAN/tree/master/data/crossdock2020
+* For more instruction about the the raw data, go to:  
+https://github.com/gnina/models/tree/master/data/CrossDocked2020
 * Our refined datasets pointers are  
 Training: [train_se_cnfs.csv](train_se_cnfs.csv)  
 Validation: [valid_se_cnfs.csv](valid_se_cnfs.csv)  

@@ -17,7 +17,9 @@ To demonstrate the utility of our technique in the molecular setting we use Cros
 http://bits.csb.pitt.edu/files/crossdock2020/v1.1/
 * Instruction to download the raw data for the CrossDocked2020 set  
 https://github.com/gnina/models/tree/master/data/CrossDocked2020
-* The refined datasets pointers  
+* Download the following evaluation dataset and save it with the pockets folders under a folder named `test/`
+https://github.com/mattragoza/LiGAN/tree/master/data/crossdock2020
+* Our refined datasets pointers are  
 Training: [train_se_cnfs.csv](train_se_cnfs.csv)  
 Validation: [valid_se_cnfs.csv](valid_se_cnfs.csv)  
 Evaluation: [eval_se_cnfs.csv](eval_se_cnfs.csv)  

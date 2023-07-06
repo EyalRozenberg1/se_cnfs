@@ -17,7 +17,7 @@ To demonstrate the utility of our technique in the molecular setting we use Cros
 https://github.com/gnina/models/tree/master/data/CrossDocked2020
 * Download the tarballs (v1.1) from:  
 http://bits.csb.pitt.edu/files/crossdock2020/v1.1/
-* The refined datasets:  
+* The refined datasets pointers:  
 Training  
 Validation  
 Evaluation  
